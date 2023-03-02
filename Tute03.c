@@ -14,6 +14,16 @@ sum = 1+2+3+...+10 = 55 */
 #include <stdio.h>
 int main() {
   
+  int n;
+  float total;
+  
+  printf("Enter a number:");
+  scanf("%d", &n);
+  
+  total = n * (n + 1) / 2;
+  
+  printf("Sum of the numbers from 1 to %d: %.2f" ,n, total);
+  
   return 0;
 }
 
